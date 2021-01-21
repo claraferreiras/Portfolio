@@ -40,7 +40,8 @@ font-family: font-awesome;
     height: 0.2rem;
     background-color: rgb(211, 211, 211);
     box-shadow: 0.1rem 0.2rem 2px rgba(0, 0, 0, 0.4);
-    transition: background-color 0.5s;  
+    transition: background-color 0.5s;
+    transition: transform 1s;  
 }
 
 #lines:hover #line1{
@@ -53,6 +54,35 @@ font-family: font-awesome;
 
 #lines:hover #line3{
     background-color: #2a5298;
+}
+
+.hamburguer span{
+    position: absolute;
+    left: -7rem;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 5px;
+    background-color: #2a5298;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-action);
+    color: rgb(211, 211, 211);
+    opacity: 0;
+}
+
+.hamburguer span::before{
+    content: "";
+    position: absolute;
+    border-right: .5rem solid transparent;
+    border-top: .5rem solid transparent;
+    border-left: .5rem solid #2a5298;
+    border-bottom: .5rem solid transparent;
+    left: 5rem;
+}
+
+.show-menu .hamburguer:hover span{
+    opacity: 1;
 }
 
 body{
@@ -159,6 +189,11 @@ header{
     background-color:rgb(211, 211, 211);
     position: fixed;
     top: 0;
+    right: -20rem;
+    transition: all 1s;
+}
+
+.show-menu .sidebar{
     right: 0;
 }
 
