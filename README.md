@@ -5,5 +5,5 @@ Portfolio pessoal de design
 
 :package: nova funcionalidade
 :up: atualização
-:beatle: correção de bug
+:bug: correção de bug
 :checkered_flag: release
