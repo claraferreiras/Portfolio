@@ -5,15 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clara Ferreira Design</title>
     <link rel= "stylesheet" href="style.css"
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-    <link rel="manifest" href="images/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
 </head>
 
 <body>
 
     <div class="container">
+
+        <div class="hamburguer" id="lines"> 
+            <!--div.hamburguer>div.line#line*3-->
+                <div class="line" id="line1"></div>
+                <div class="line" id="line2"></div>
+                <div class="line" id="line3"></div>
+        </div>
+
         <header>
             <div class="img-wrapper">
             <img src="images/retrato.png" alt="">    
@@ -25,7 +33,25 @@
                 <button>Saiba mais</button>
             </div>
         </header>
-    </div>
 
+        <div class="sidebar"> 
+            <!--div.sidebar>nav>ul.menu>(li.menu-item>a.menu-link)*4-->
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Conhecimentos</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
+                </ul>
+            </nav>
+
+            <div class="social-media"> <!--div.social-media>(a>i.fab.fa)*3-->
+                <a href="#"><i class="fab fa-instagram" id="insta"></i> </a>
+                <a href="#"><i class="fab fa-github-square" id="github"></i></a>
+                <a href="#"><i class="fab fa-linkedin" id="linkedin"></i></a>
+            </div>
+        </div>
+
+    </div>
 </body>
 </html>
