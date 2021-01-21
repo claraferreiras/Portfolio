@@ -126,7 +126,7 @@ header{
     text-transform: uppercase;
     background: #1e3c72;
     background: -webkit-linear-gradient(to right, #2a5298, #1e3c72);
-    background: linear-gradient(to right, , #1e3c72);
+    background: linear-gradient(to right, #2a5298, #1e3c72);
     box-shadow: 0.2rem 0.3rem 2px rgba(0, 0, 0, 0.2);
     padding: 1rem 3rem;
     border: none;
