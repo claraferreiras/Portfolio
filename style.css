@@ -173,6 +173,7 @@ header{
     width: 20rem;
     height: 100vh;
     background-color:rgb(211, 211, 211);
+    box-shadow: rgba(0, 0, 0, 0.2) -8px 0px 16px 1px;
     position: fixed;
     top: 0;
     right: -20rem;
