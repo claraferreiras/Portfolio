@@ -25,34 +25,101 @@
 
         <header>
             <div class="img-wrapper">
-            <img src="images/retrato.png" alt="">    
+            <img src="images/retrato.png" id="image" alt="profile picture as background">    
             </div>
 
-            <div class="banner">
+            <div class="banner" id="banner">
                 <h1>Web Designer &<br>Desenvolvedora Front End</h1>
                 <p>Clara Ferreira Santana</p>
                 <button>Saiba mais</button>
             </div>
         </header>
 
-        <div class="sidebar"> 
+        <aside class="sidebar"> 
             <!--div.sidebar>nav>ul.menu>(li.menu-item>a.menu-link)*4-->
             <nav id="menu">
                 <ul class="menu">
-                    <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Conhecimentos</a></li>
+                    <li class="menu-item"><a href="#image" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimentos</a></li>
                     <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
                     <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
                 </ul>
             </nav>
 
-            <div class="social-media"> <!--div.social-media>(a>i.fab.fa)*3-->
+            <div class="social-media"> 
+                <!--div.social-media>(a>i.fab.fa)*3-->
                 <a href="https://www.instagram.com/azulao.clara/" target="_blank"><i class="fab fa-instagram" id="insta"></i> </a>
                 <a href="https://github.com/claraferreiras" target="_blank"><i class="fab fa-github-square" id="github"></i></a>
                 <a href="https://linkedin.com/in/clara-ferreira-santana" target="_blank"><i class="fab fa-linkedin" id="linkedin"></i></a>
                 <a href="https://www.behance.net/azulaoclara" target="_blank"><i class="fab fa-behance-square" id="behance"></i></a>
             </div>
-        </div>
+        </aside>
+
+        <section class="sessao-conhecimentos">
+            <div class="sessao-header">
+                <h1>Conhecimentos</h1>
+            </div>
+            <div class="conhecimentos">
+                <div class="conhecimento" id="uxui">
+                    <div class="conhecimento-header">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>UX & UI</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis quibusdam iusto, commodi, officiis incidunt aliquam quis eligendi minima eos impedit molestias hic voluptatem odio laborum ratione.</p>
+                    </div>
+                </div>
+                <div class="conhecimento" id="photoshop">
+                    <div class="conhecimento-header">
+                        <i class="fas fa-layer-group"></i>
+                        <h3>Photoshop</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis quibusdam iusto, commodi, officiis incidunt aliquam quis eligendi minima eos impedit molestias hic voluptatem odio laborum ratione.</p>
+                    </div>
+                </div>
+                <div class="conhecimento" id="illustrator">
+                    <div class="conhecimento-header">
+                        <i class="fas fa-bezier-curve"></i>
+                        <h3>Illustrator</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis quibusdam iusto, commodi, officiis incidunt aliquam quis eligendi minima eos impedit molestias hic voluptatem odio laborum ratione.</p>
+                    </div>
+                </div>
+                <div class="conhecimento" id="figma">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-figma"></i>
+                        <h3>Figma</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis quibusdam iusto, commodi, officiis incidunt aliquam quis eligendi minima eos impedit molestias hic voluptatem odio laborum ratione.</p>
+                    </div>
+                </div>
+                <div class="conhecimento" id="html">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-html5"></i>
+                        <h3>html</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis quibusdam iusto, commodi, officiis incidunt aliquam quis eligendi minima eos impedit molestias hic voluptatem odio laborum ratione.</p>
+                    </div>
+                </div>
+                <div class="conhecimento" id="css">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>css</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis quibusdam iusto, commodi, officiis incidunt aliquam quis eligendi minima eos impedit molestias hic voluptatem odio laborum ratione.</p>
+                    </div>
+                </div>
+                <div class="conhecimentos-image">
+                    <img src="#" alt="flat illustration">
+                </div>
+            </div>
+        </section>
+
     </div>
 
 </body>
