@@ -28,7 +28,7 @@
             </div>
 
             <div class="banner" id="banner">
-                <h1>Web Designer &<br>Desenvolvedora Front End</h1>
+                <h1>Web Designer <!--&<br>Desenvolvedora Front End--></h1>
                 <p>Clara Ferreira Santana</p>
                 <button>Saiba mais</button>
             </div>
@@ -101,6 +101,8 @@
 
         <section class="sessao-projetos">
 
+           
+
             <div class="sessao-header" id="projetos">
                 <h1>Projetos</h1>
             </div>
@@ -142,6 +144,33 @@
 
             </div>
         </section>
+ 
+        <section class="sessao-contato">
+
+            <div class="contato-wrapper">
+
+                <div class="contato-left"></div>
+                <div class="contato-right" id="contato">
+                    <h1>Contato</h1>
+                    <form>
+                        <!--(.input-group>input.field+label.field-label)*3-->
+                        <div class="input-group">
+                            <input type="text" class="field" id="nome">
+                            <label for="nome" class="field-label">Nome</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="field" id="email">
+                            <label for="email" class="field-label">Email</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea class="field" id="mensagem"></textarea>
+                            <label for="mensagem" class="field-label">Mensagem</label>
+                        </div>
+                        <button type="submit" class="button-submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
 
         <aside class="sidebar"> 
             <!--div.sidebar>nav>ul.menu>(li.menu-item>a.menu-link)*4-->
@@ -150,7 +179,7 @@
                     <li class="menu-item"><a href="#image" class="menu-link">Home</a></li>
                     <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimentos</a></li>
                     <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
+                    <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
                 </ul>
             </nav>
 
